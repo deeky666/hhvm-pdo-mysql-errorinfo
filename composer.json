@@ -1,0 +1,16 @@
+{
+  "name": "deeky666/hhvm-pdo-mysql-errorinfo",
+  "type": "library",
+  "description": "HHVM pdo_mysql error info test case",
+  "license": "MIT",
+  "authors": [
+    {"name": "Steve Müller", "email": "deeky666@googlemail.com"}
+  ],
+  "require": {
+    "php": ">=5.4",
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload-dev": {
+    "psr-0": { "HHVM\\Tests\\": "tests/" }
+  }
+}
